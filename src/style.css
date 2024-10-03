@@ -1,0 +1,12 @@
+body {
+  background-color: #4a6c87;
+  font-family: "Roboto", sans-serif;
+}
+.weather-app {
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
+  max-width: 550px;
+  margin: 90px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
