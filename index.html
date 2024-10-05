@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -30,7 +30,7 @@
       <main>
         <div class="current-weather">
           <div>
-            <h1 class="current-city" id="current-city">Johannesburg</h1>
+            <h1 class="current-city" id="current-city"></h1>
             <p class="current-details">
               Thursday 15:22, moderate rain
               <br />
@@ -39,7 +39,10 @@
           </div>
           <div class="current-temperature">
             <span class="current-temperature-icon">☀</span
-            ><span class="current-temperature-value"> 12</span>
+            ><span
+              class="current-temperature-value"
+              id="current-temperature-value"
+            ></span>
             <span class="current-temperature-unit">℃</span>
           </div>
         </div>
