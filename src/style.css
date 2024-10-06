@@ -45,7 +45,7 @@ main {
   margin-left: 10px;
 }
 .current-temperature-icon {
-  font-size: 44px;
+  width: 88px;
   position: relative;
   top: -9px;
   margin-right: 5px;
